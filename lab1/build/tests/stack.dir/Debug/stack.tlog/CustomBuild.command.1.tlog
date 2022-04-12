@@ -1,0 +1,10 @@
+^D:\研一下学期\C++\LAB1_ZHANG\LAB1\TESTS\CMAKELISTS.TXT
+setlocal
+D:\CMAKE\bin\cmake.exe -SD:/研一下学期/C++/lab1_zhang/lab1 -BD:/研一下学期/C++/lab1_zhang/lab1/build --check-stamp-file D:/研一下学期/C++/lab1_zhang/lab1/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
