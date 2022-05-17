@@ -1,0 +1,4 @@
+SET(SOURCES stack.cpp stack.h)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+ADD_LIBRARY(my_stack ${SOURCES})
+

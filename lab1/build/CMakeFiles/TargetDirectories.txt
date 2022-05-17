@@ -1,0 +1,4 @@
+D:/研一下学期/C++/lab1_zhang/lab1/build/CMakeFiles/ALL_BUILD.dir
+D:/研一下学期/C++/lab1_zhang/lab1/build/CMakeFiles/ZERO_CHECK.dir
+D:/研一下学期/C++/lab1_zhang/lab1/build/src/CMakeFiles/my_stack.dir
+D:/研一下学期/C++/lab1_zhang/lab1/build/tests/CMakeFiles/stack.dir

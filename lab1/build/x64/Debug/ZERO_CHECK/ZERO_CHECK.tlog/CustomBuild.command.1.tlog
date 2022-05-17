@@ -1,0 +1,10 @@
+^D:\研一下学期\C++\LAB1_ZHANG\LAB1\BUILD\CMAKEFILES\62FA9DBBE3C6C4E900FB27580E4D3696\GENERATE.STAMP.RULE
+setlocal
+D:\CMAKE\bin\cmake.exe -SD:/研一下学期/C++/lab1_zhang/lab1 -BD:/研一下学期/C++/lab1_zhang/lab1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/研一下学期/C++/lab1_zhang/lab1/build/my_prj.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
