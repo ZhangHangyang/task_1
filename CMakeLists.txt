@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.8)
+set(PROJECT_NAME my_prj3)
+project(${PROJECT_NAME} CXX)
+set(CMAKE_CXX_STANDARD 14)
+enable_testing()
+add_subdirectory(googletest)
+ADD_SUBDIRECTORY(src)
+ADD_SUBDIRECTORY(tests)
