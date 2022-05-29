@@ -1,7 +1,0 @@
-INCLUDE_DIRECTORIES( D:/研一下学期/C++/lab3_zhang/src) 
-include_directories( D:/研一下学期/C++/lab3_zhang/googletest/googletest/include)
-set(Test gt_sin.cpp)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-ADD_EXECUTABLE(SIN ${Test})
-target_link_libraries(SIN PUBLIC gtest gtest_main my_SIN )
-add_test(NAME SIN COMMAND SIN)
