@@ -1,0 +1,7 @@
+INCLUDE_DIRECTORIES( D:/研一下学期/C++/lab1_zhang/src) 
+include_directories( D:/研一下学期/C++/lab1_zhang/googletest/googletest/include)
+set(Test gt_stack.cpp)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+ADD_EXECUTABLE(STACK ${Test})
+target_link_libraries(STACK PUBLIC gtest gtest_main my_STACK )
+add_test(NAME STACK COMMAND STACK)
