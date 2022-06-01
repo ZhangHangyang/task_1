@@ -92,6 +92,7 @@ TEST_F(gt_stack, front) {
 	EXPECT_EQ(3, *p);
 }
 
+
 int main(int argc, char* argv[]) {
 	int key = 0;
 	testing::InitGoogleTest(&argc, argv);
